@@ -1,0 +1,126 @@
+
+
+Code Repository & Version Control:
+
+1. GitHub & 2. GitLab
+
+Online Code Repository and Version Control System : GitHub
+
+Directory or Repository : /devops01
+
+Download, Install, & Configure GitLab on AWS Cloud :
+
+Step-1: Launch a Linux Instance(i.e. Ubuntu or CentOS) 
+
+1. Gitlab-CE(Code Repository and Version Control)
+
+2. Gitlab-CI()
+
+3. Gitlab-Runner >> Cloud Vendors 
+
+Package Management : 
+
+Based on Linux Distributions:
+
+Amazon Linux, CentOS, Redhat : yum and rpm 
+
+Ubuntu : apt or apt-get 
+
+
+#-------------------------------------------#
+
+
+
+#------------- Setup SSH for GitHub for user(Ubuntu) on Ubuntu -----------------#
+
+# ssh-keygen 
+
+# eval "$(ssh-agent -s)"
+Agent pid 2153
+
+# ssh-add -k ~/.ssh/id_rsa
+Identity added: /home/ubuntu/.ssh/id_rsa (/home/ubuntu/.ssh/id_rsa)
+
+# ssh -T git@github.com
+
+#------------- Setup SSH for GitHub for user(Jenkins) on Ubuntu --------------#
+
+# ssh-keygen -t rsa -b 4096 -C "keshav.kummari@gmail.com"
+
+# eval "$(ssh-agent -s)"
+Agent pid 2153
+
+# ssh-add -k ~/.ssh/id_rsa
+Identity added: /home/ubuntu/.ssh/id_rsa (/home/ubuntu/.ssh/id_rsa)
+
+# ssh -T git@github.com
+
+# git config --global user.name "jenkins"
+
+# git config --global user.email "keshav.kummari@gmail.com"
+
+# sudo git clone https://github.com/keshavkummari/devops.git
+
+#-------------------------------------------#
+
+
+Tools :
+
+Cloud : AWS
+
+Code Repository & Version Control : github
+
+Continuous Business Planning : Trello
+
+Agile & Scrum Board : Trello
+
+
+Last Week :
+
+Various Tools
+
+Unix/Linux & Windows 
+
+Cloud : AWS -- EC2 instance (Windows & Linux)
+
+Cloud : AWS(VPC)
+
+Code Repository & Version Control : gitflow commands 
+
+Gitlab-CE
+Gitlab-CI
+Gitlab-Runner 
+
+Code Repository & Version Control : github
+
+1. Account Creation with github.com
+2. Create a Folder/Repository/Directory part of github.com
+3. Clone or Download Linux/Windows/MacOS
+4. Configure gitflow connection from Local Machine to github.com
+5. GitFlow commands 
+
+
+Test 
+
+
+
+
+Code Repository & Version Control : github
+
+1. Account Creation with github.com
+
+2. Create a Folder/Repository/Directory part of github.com
+
+Repo Name : cognixia_8am_devops
+
+3. Clone or Download Linux/Windows/MacOS
+
+Download to our Local Machine(Laptop Or Desktop) 
+
+cmd , powershell, gitbash, cmder 
+
+4. Configure gitflow connection from Local Machine to github.com
+
+5. GitFlow commands
+
+
